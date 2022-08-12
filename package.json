@@ -1,0 +1,19 @@
+{
+  "name": "auth-distributed",
+  "version": "0.0.1",
+  "description": "Auth distributed test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvision/auth-distributed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvision/auth-distributed/issues"
+  },
+  "homepage": "https://github.com/vvision/auth-distributed#readme"
+}

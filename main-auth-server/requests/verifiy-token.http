@@ -1,0 +1,13 @@
+### GET request with a header
+GET http://localhost:3000/token
+Accept: application/json
+
+{
+  "token": "my-secret-token"
+}
+
+> {% client.global.set("auth_token", response.body.token); %}
+
+### Authorization by token, part 2. Use token to authorize.
+GET http://localhost:3030/decode
+Authorization: Bearer {{auth_token}}
